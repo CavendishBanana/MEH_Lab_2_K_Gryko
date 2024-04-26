@@ -131,13 +131,17 @@
     <ClCompile Include="CompareLess.cpp" />
     <ClCompile Include="ICompare.cpp" />
     <ClCompile Include="IFunction.cpp" />
+    <ClCompile Include="INumberGenerator.cpp" />
     <ClCompile Include="MEH_Lab_2_K_Gryko.cpp" />
+    <ClCompile Include="NormalDistributionGenerator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AckleyFunction.h" />
     <ClInclude Include="CompareLess.h" />
     <ClInclude Include="ICompare.h" />
     <ClInclude Include="IFunction.h" />
+    <ClInclude Include="INumberGenerator.h" />
+    <ClInclude Include="NormalDistributionGenerator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
